@@ -34,4 +34,7 @@ selectnav("menu");
 
 // AOS init
 
-AOS.init();
+AOS.init({
+  once: true
+});
+
